@@ -1,6 +1,6 @@
 const BASE_URL= "https://v6.exchangerate-api.com/v6/1672b4e43098b5d33cab7c1d/pair/USD/NPR";
 const dropdown= document.querySelectorAll(".dropdown select");
-
+const btn=document.querySelector()
 
 for(let select of dropdown){
     for(let currCode in countryList){
@@ -28,4 +28,8 @@ let countrycode=countryList[currCode];
 let newsrc=`https://flagsapi.com/${countrycode}/flat/64.png`;
 let img=element.parentElement.querySelector("img");
 img.src=newsrc;
-}
+};
+
+btn.addEventListener("click",(evt)=>{
+
+})
